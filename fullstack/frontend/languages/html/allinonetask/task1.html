@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+</head>
+
+<body>
+    <form action="submitdata.html" method="get">
+        <table>
+            <tr class="box">
+                <th>
+                    <label for="">Enter Name:</label>
+                </th>
+                <th><input type="name" name="name"></th>
+            </tr>
+            <tr class="box">
+                <th>
+                    <label for="">Enter Password:</label>
+                </th>
+                <th><input type="password" name="password"></th>
+            </tr>
+            <tr class="box">
+                <th><label for="">Enter Email:</label></th>
+                <th><input type="email" name="email"></th>
+            </tr>
+            <tr class="box">
+                <th><label for="">Enter Number:</label></th>
+                <th><input type="number" name="number" placeholder="123-45-678"></th>
+            </tr>
+            <tr class="box">
+                <th><label for="">Select Gender:</label></th>
+                <th><input type="radio" id="male" name="male">
+                    <label for="html">male</label>
+                    <input type="radio" id="female" name="female">
+                    <label for="css">female</label></th>
+            </tr>
+        </table>
+        <br>
+        <button class="button">register</button>
+    </form>
+
+    <style>
+        .box {
+            padding-bottom: 5px;
+            width: 200px;
+            text-align-last: left;
+        }
+        
+        .button {
+            background-color: violet;
+            color: white;
+        }
+    </style>
+</body>
+
+</html>
