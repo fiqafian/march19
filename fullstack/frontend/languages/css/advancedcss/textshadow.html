@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance CSS3</title>
+</head>
+
+<body>
+    <style>
+        h1 {
+            text-shadow: 0 0 3px red, 0 0 5px blue;
+            color: white;
+        }
+        
+        #box-shadow {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            box-shadow: salmon;
+        }
+        
+        #transistion {
+            width: 200px;
+            height: 200px;
+            background-color: slateblue;
+            transition: width 2s, height 2s;
+            /* jgn lupa letak comment between width and height */
+        }
+        
+        #transistion:hover {
+            width: 400px;
+            height: 660px;
+        }
+    </style>
+    <h1>helloww</h1>
+    <div id="box-shadow"></div>
+    <div id="transistion"></div>
+
+</body>
+
+</html>
